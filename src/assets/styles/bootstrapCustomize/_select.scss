@@ -1,0 +1,35 @@
+.select-wrap {
+    position: relative;
+    &[data-arrow="right"] {
+        &::after {
+            position: absolute;
+            top: 50%;
+            transform: translateY(calc(-50% - 3.5px)) rotate(135deg);
+            right: 15px;
+            content: "";
+            width: 15px;
+            height: 15px;
+            background: transparent;
+            z-index: 2;
+            pointer-events: none;
+            border-top: 2px solid $borderColor;
+            border-right: 2px solid $borderColor;
+        }
+        .select-box {
+            padding-right: 1.25rem;
+        }
+    }
+    .select-box {
+        padding-right: 4rem;
+        appearance: none;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        border-width: 2px;
+        &[data-valide="true"] {
+            border-color: $activeColor;
+        }
+        &[data-valide="false"] {
+            border-color: rgba($color: $dangerColor, $alpha: 0.6);
+        }
+    }
+}

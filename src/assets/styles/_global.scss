@@ -1,0 +1,58 @@
+:root {
+    --navyBlue: #061d49;
+    --green: #7ed321;
+    --gray: #969492;
+    --blue: #104cbf;
+    --yellow: #ff0;
+    --red: #f00;
+    --white: #fff;
+    --black: #000;
+}
+
+body {
+    font-size: $bodyFontSize;
+    font-weight: 400;
+    color: $navyBlue;
+    line-height: $standardlineheight;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: $heading-1-FontSize;
+}
+h2 {
+    font-size: $heading-2-FontSize;
+}
+h3 {
+    font-size: $heading-3-FontSize;
+}
+h4 {
+    font-size: $heading-4-FontSize;
+}
+h5 {
+    font-size: $heading-5-FontSize;
+}
+h6 {
+    font-size: $heading-6-FontSize;
+}
+.text-error {
+    font-size: 1.125rem;
+    color: $danger;
+}
+.tiny-content {
+    p {
+        font-size: 0.75rem;
+        padding-top: 0.938rem;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

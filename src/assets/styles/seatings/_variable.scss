@@ -1,0 +1,61 @@
+// Basic colors
+$navyBlue: #061d49;
+$green: #7ed321;
+$gray: #969492;
+$blue: #104cbf;
+//$bg:  #0082ba;
+$yellow: #ff0;
+$danger: #d0021b;
+$white: #fff;
+$black: #000;
+
+// Naming used components
+$bodyColor: $navyBlue;
+$contentColor: $navyBlue;
+$headingColor: $navyBlue;
+$bodyBg: $white;
+$linkColor: $green;
+$buttonBg: rgba(
+    $color: $navyBlue,
+    $alpha: 0.9,
+);
+$borderColor: rgba(
+    $color: $gray,
+    $alpha: 0.8,
+);
+$borderFocusColor: $blue;
+
+$activeColor: $green;
+$dangerColor: $danger;
+$warningColor: $yellow;
+
+$infoColor: rgba(
+    $color: $green,
+    $alpha: 0.3,
+);
+$bgLightGray: rgba(
+    $color: $gray,
+    $alpha: 0.6,
+);
+$bgDrakGray: rgba(
+    $color: $gray,
+    $alpha: 1,
+);
+$buttonBg: rgba(
+    $color: $blue,
+    $alpha: 0.8,
+);
+$buttonActiveBg: $navyBlue;
+$buttonBorderColor: $navyBlue;
+$buttonBorderActiveColor: $green;
+
+// font size variable
+// body font is the based
+$bodyFontSize: 1.125rem;
+$standardlineheight: 150%;
+$heading-1-FontSize: 2rem;
+$heading-2-FontSize: 1.75rem;
+$heading-3-FontSize: 1.5rem;
+$heading-4-FontSize: 1.3rem;
+$heading-5-FontSize: 1.1rem;
+$heading-6-FontSize: 1rem;

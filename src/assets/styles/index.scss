@@ -1,0 +1,11 @@
+// load the bootstrap style
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Seattings contain all controll like as variable, font-size, colors, specing etc..
+@import "./seatings";
+
+// global styles here
+@import "./global";
+
+// customize the bootstrap components
+@import "./bootstrapCustomize";
